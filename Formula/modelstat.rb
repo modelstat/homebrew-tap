@@ -3,7 +3,7 @@ class Modelstat < Formula
   homepage "https://modelstat.ai"
   url "https://registry.npmjs.org/@modelstat/agent/-/agent-0.0.9.tgz"
   sha256 "1270bc1bf691c39235e336fa4ab09de042e2bff3d957f20a0f76dffbfd09a79d"
-  license "MIT"
+  license "Apache-2.0"
 
   depends_on "node"
 
