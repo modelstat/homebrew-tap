@@ -1,8 +1,8 @@
 class Modelstat < Formula
   desc "Cross-tool AI spend analytics agent — track every AI coding token"
   homepage "https://modelstat.ai"
-  url "https://registry.npmjs.org/@modelstat/agent/-/agent-0.0.8.tgz"
-  sha256 "9b5194c5e954742d34efe83b3d0da6fa36345e14a0e555ad8533cdd85344f1b4"
+  url "https://registry.npmjs.org/@modelstat/agent/-/agent-0.0.9.tgz"
+  sha256 "1270bc1bf691c39235e336fa4ab09de042e2bff3d957f20a0f76dffbfd09a79d"
   license "MIT"
 
   depends_on "node"
