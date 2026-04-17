@@ -8,7 +8,9 @@ class Modelstat < Formula
   depends_on "node"
 
   def install
-    system "npm", "install", *Language::Node.std_npm_install_args(libexec)
+    # Modern Homebrew helper: builds into #{libexec} with the right
+    # --prefix flags. Replaces the removed Language::Node helper.
+    system "npm", "install", *std_npm_args
     bin.install_symlink Dir["#{libexec}/bin/*"]
   end
 
